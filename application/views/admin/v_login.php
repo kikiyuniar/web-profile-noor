@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>M-Techno | Log in</title>
+    <title>Noor | Log in</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
+    <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/icon-noor.png'?>">
     <!-- Bootstrap 3.3.6 -->
     <link rel="stylesheet" href="<?php echo base_url().'assets/bootstrap/css/bootstrap.min.css'?>">
     <!-- Font Awesome -->
@@ -28,7 +28,7 @@
         <!-- /.login-logo -->
         <div class="login-box-body">
             <p class="login-box-msg"> <img style="width: 100%;"
-                    src="<?php echo base_url().'assets/images/LOGO-noor.png'?>"></p>
+                    src="<?php echo base_url().'assets/images/full-noor.png'?>"></p>
             <hr />
 
             <form action="<?php echo base_url().'administrator/auth'?>" method="post">

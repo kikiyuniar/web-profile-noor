@@ -57,7 +57,6 @@ class Pengguna extends CI_Controller{
 	               				$this->m_pengguna->simpan_pengguna($nama,$jenkel,$username,$password,$email,$nohp,$level,$gambar);
 	                    		echo $this->session->set_flashdata('msg','success');
 	               				redirect('admin/pengguna');
-	               				
 	               			}
 	                    
 	                }else{
@@ -82,8 +81,7 @@ class Pengguna extends CI_Controller{
 	                    echo $this->session->set_flashdata('msg','success');
 	               		redirect('admin/pengguna');
 	               	}
-	            } 
-
+	            }
 	}
 
 	function update_pengguna(){
@@ -192,6 +190,37 @@ class Pengguna extends CI_Controller{
 	    redirect('admin/pengguna');
    
     }
+
+	function sendemail($email,$saltid){  
+		   // configure the email setting  
+		$config['protocol'] = 'smtp';  
+		$config['smtp_host'] = 'ssl://smtp.gmail.com'; //smtp host name  
+		$config['smtp_port'] = '465'; //smtp port number  
+		$config['smtp_user'] = 'noorenergibaik@gmail.com';  
+		$config['smtp_pass'] = '********'; //$from_email password  
+		$config['mailtype'] = 'html';  
+		$config['charset'] = 'iso-8859-1';  
+		$config['wordwrap'] = TRUE;  
+		$config['newline'] = "\r\n"; //use double quotes  
+		$this->email->initialize($config);  
+		$url = base_url()."user/confirmation/".$saltid;  
+		$this->email->from('noorenergibaik@gmail.com', 'CodesQuery');  
+		$this->email->to($email);   
+		$this->email->subject('Please Verify Your Email Address');  
+		$message = "<html><head><head></head><body><p>Hi,</p><p>Thanks for registration with PT. Noor energi baik.</p><p>Please click below link to verify your email.</p>".$url."<br/><p>Sincerely,</p><p>CodesQuery Team</p></body></html>";  
+		$this->email->message($message);  
+		return $this->email->send();  
+	}
+
+	function confirmation($key){  
+    	if($this->user_model->verifyemail($key)){  
+        $this->session->set_flashdata('msg','<div class="alert alert-success text-center">Your Email Address is successfully verified!</div>');  
+        redirect(base_url());  
+      	}	else {  
+        $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Your Email Address Verification Failed. Please try again later...</div>');  
+        redirect(base_url());  
+      	}  
+    }  
 
 
 }

@@ -30,7 +30,12 @@
                 <li><a href="#"><i class="icon-linkedin"></i></a></li>
                 <li><a href="#"><i class="icon-instagram"></i></a></li>
             </ul>
+            <h3><i class="fa fa-sign-in" aria-hidden="true"></i> Sign-in</h3>
+            <ul>
+                <li><a href="<?php echo base_url().'administrator'?>">admin</a></li>
+            </ul>
         </div>
+
 
 
         <div class="col-md-12 fh5co-copyright text-center">
