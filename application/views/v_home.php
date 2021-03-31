@@ -60,6 +60,9 @@
                             <li><a href="<?php echo base_url().'artikel'?>">Blog</a></li>
                             <li><a href="<?php echo base_url().'gallery'?>">Project</a></li>
                             <li><a href="<?php echo base_url().'kontak'?>">Contact</a></li>
+                            <li class="cta"><a target="_blank"
+                                    href="https://api.whatsapp.com/send?phone=6281939123456"><i class="fa fa-whatsapp"
+                                        aria-hidden="true"></i> Get Whatsapp</a></li>
                         </ul>
                     </nav>
                 </div>
