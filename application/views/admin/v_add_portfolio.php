@@ -257,7 +257,7 @@
 
         <footer class="main-footer">
             <strong>
-                <center>&copy; <?= date('Y'); ?> <a href="https://ArisPutraBuana">Aris Putra Buana</a>
+                <center>&copy; <?= date('Y'); ?> <a href=" ">PT. Noor Energi Baik</a>
             </strong>
             </center>
         </footer>

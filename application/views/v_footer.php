@@ -27,7 +27,7 @@
             <ul class="fh5co-social">
                 <li><a href="#"><i class="icon-twitter"></i></a></li>
                 <li><a href="#"><i class="icon-facebook"></i></a></li>
-                <li><a href="#"><i class="icon-google-plus"></i></a></li>
+                <li><a href="#"><i class="icon-linkedin"></i></a></li>
                 <li><a href="#"><i class="icon-instagram"></i></a></li>
             </ul>
         </div>
@@ -35,7 +35,7 @@
 
         <div class="col-md-12 fh5co-copyright text-center">
             <p>&copy; <?= date('Y'); ?> by <a href="#">
-                    Noor Energi Baik</a></p>
+                    PT. Noor Energi Baik</a></p>
         </div>
 
     </div>

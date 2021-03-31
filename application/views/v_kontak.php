@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="Aris Putra Buana" />
-    <link rel="shorcut icon" type="text/css" href="<?php echo base_url() . 'assets/images/favicon.png' ?>">
+    <link rel="shorcut icon" type="text/css" href="<?php echo base_url() . 'assets/images/ICON-noor.png' ?>">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico">
     <!-- Animate.css -->
@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/flexslider.css' ?>">
     <!-- Theme style  -->
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/style.css' ?>">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
     <!-- Modernizr JS -->
     <script src="<?php echo base_url() . 'theme/js/modernizr-2.6.2.min.js' ?>"></script>
 
@@ -38,7 +39,7 @@
                     <h1><a href="<?php echo base_url() . '' ?>">NOOR<span>.</span></a></h1>
                     <nav role="navigation">
                         <ul>
-                            <li><a href="<?php echo base_url().''?>">Home</a></li>
+                            <li><a href="<?php echo base_url().''?>"><i class="fa fa-home"></i></a></li>
                             <li><a href="<?php echo base_url().'about'?>">About</a></li>
                             <li><a href="<?php echo base_url().'portfolio'?>">Business Scope</a></li>
                             <li><a href="<?php echo base_url().'artikel'?>">Blog</a></li>

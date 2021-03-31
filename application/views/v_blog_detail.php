@@ -22,7 +22,7 @@ $rating = $b['tulisan_rating'];
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta name="author" content="Aris Putra Buana" />
+    <meta name="author" content="Noor Energi Baik" />
 
     <meta property="fb:app_id" content="966242223397117" />
     <meta property="og:locale" content="id_id" />
@@ -30,13 +30,13 @@ $rating = $b['tulisan_rating'];
     <meta property="og:title" content="<?php echo $title; ?>" />
     <meta property="og:description" content="<?php echo $deskripsi; ?>" />
     <meta property="og:url" content="<?php echo $url ?>" />
-    <meta property="og:site_name" content="mfikri.com" />
+    <meta property="og:site_name" content="" />
 
     <meta property="article:section" content="<?php echo $author; ?>" />
     <meta property="og:image" content="<?php echo $img ?>" />
     <meta property="og:image:width" content="460" />
     <meta property="og:image:height" content="440" />
-    <link rel="shorcut icon" type="text/css" href="<?php echo base_url() . 'assets/images/favicon.png' ?>">
+    <link rel="shorcut icon" type="text/css" href="<?php echo base_url() . 'assets/images/ICON-noor.png' ?>">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico">
@@ -50,7 +50,8 @@ $rating = $b['tulisan_rating'];
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/flexslider.css' ?>">
     <!-- Theme style  -->
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/style.css' ?>">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/font-awesome/css/font-awesome.min.css' ?>">
 
     <!-- Modernizr JS -->
@@ -68,7 +69,7 @@ $rating = $b['tulisan_rating'];
                     <h1><a href="<?php echo base_url() . '' ?>">NOOR<span>.</span></a></h1>
                     <nav role="navigation">
                         <ul>
-                            <li><a href="<?php echo base_url().''?>">Home</a></li>
+                            <li><a href="<?php echo base_url().''?>"><i class="fa fa-home"></i></a></li>
                             <li><a href="<?php echo base_url().'about'?>">About</a></li>
                             <li><a href="<?php echo base_url().'portfolio'?>">Business Scope</a></li>
                             <li class="active"><a href="<?php echo base_url().'artikel'?>">Blog</a></li>
@@ -91,9 +92,8 @@ $rating = $b['tulisan_rating'];
                             <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
                                 <div class="slider-text-inner">
                                     <h2>Enjoy the Blog</h2>
-                                    <p class="fh5co-lead"> Awesome source code by <a
-                                            href="https://ArisPutraBuana.github.io/" target="_blank">Aris Putra
-                                            Buana</a></p>
+                                    <p class="fh5co-lead"> Awesome source code by <a href=" " target="_blank">PT. Noor
+                                            Energi Baik</a></p>
                                 </div>
                             </div>
                         </div>

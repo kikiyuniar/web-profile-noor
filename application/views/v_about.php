@@ -9,11 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta name="author" content="Aris Putra Buana" />
-    <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
+    <meta name="author" content="Noor Energi Baik" />
+    <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/ICON-noor.png'?>">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
     <!-- Animate.css -->
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/animate.css'?>">
     <!-- Icomoon Icon Fonts-->
@@ -40,7 +41,7 @@
                     <h1><a href="<?php echo base_url().''?>">NOOR<span>.</span></a></h1>
                     <nav role="navigation">
                         <ul>
-                            <li><a href="<?php echo base_url().''?>">Home</a></li>
+                            <li><a href="<?php echo base_url().''?>"><i class="fa fa-home"></i></a></li>
                             <li class="active"><a href="<?php echo base_url().'about'?>">About</a></li>
                             <li><a href="<?php echo base_url().'portfolio'?>">Business Scope</a></li>
                             <li><a href="<?php echo base_url().'artikel'?>">Blog</a></li>

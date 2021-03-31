@@ -4,16 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome To M-Technology</title>
+    <title>Welcome To Noor Energi Baik</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta name="author" content="M Fikri Setiadi" />
-    <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/favicon.png'?>">
 
+    <link rel="shorcut icon" type="text/css" href="<?php echo base_url().'assets/images/ICON-noor.png'?>">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="<?php echo base_url().'theme/favicon.ico'?>">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
     <!-- Animate.css -->
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/animate.css'?>">
     <!-- Icomoon Icon Fonts-->
@@ -46,18 +48,18 @@
     <div id="fh5co-page">
         <header id="fh5co-header" role="banner">
             <div class="container">
-                <div class="header-inner">
-                    <img src="" alt="">
-                    <h1><a href="<?php echo base_url().''?>">NOOR<span>.</span></a></h1>
+                <div style="background-color: #0000005c;" class="header-inner">
+
+                    <img style="width: 200px; " src="assets/images/noor.png" alt="">
                     <nav role="navigation">
                         <ul>
-                            <li class="active"><a href="<?php echo base_url().''?>">Home</a></li>
+                            <li class="active"><a href="<?php echo base_url().''?>"><i class="fa fa-home"></i></a>
+                            </li>
                             <li><a href="<?php echo base_url().'about'?>">About</a></li>
                             <li><a href="<?php echo base_url().'portfolio'?>">Business Scope</a></li>
                             <li><a href="<?php echo base_url().'artikel'?>">Blog</a></li>
                             <li><a href="<?php echo base_url().'gallery'?>">Project</a></li>
                             <li><a href="<?php echo base_url().'kontak'?>">Contact</a></li>
-
                         </ul>
                     </nav>
                 </div>
@@ -68,7 +70,7 @@
         <aside id="fh5co-hero" class="js-fullheight">
             <div class="flexslider js-fullheight">
                 <ul class="slides">
-                    <li style="background-image: url(<?php echo base_url().'theme/images/slide_1.jpeg'?>);">
+                    <li style="background-image: url(<?php echo base_url().'theme/images/bg-1.jpg'?>);">
                         <div class="overlay-gradient"></div>
                         <div class="container">
                             <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
